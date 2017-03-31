@@ -1,2 +1,2 @@
 #!/bin/bash
-gsutil rsync -d -R site/ gs://museum.naturalcapitalproject.org/
+gsutil -m rsync -d -R site/ gs://museum.naturalcapitalproject.org/
