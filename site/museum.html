@@ -1,10 +1,59 @@
 <html>
-<body>
+<style>
 
-<p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present.  Admission is free.  Stay as long as you like.  And we hope you enjoy!</p>
+body {
+    background:url("images/wood-bg.jpg") repeat;
+}
+h1 {
+    clear: left;
+}
+
+nav {
+    background-color: rgb(43, 56, 64);
+    color: gray;
+    padding: 5px;
+}
+
+}
+.header-cont {
+    width:100%;
+    top:0px;
+}
+
+div.artifact img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+div.artifact:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+div.artifact {
+    border:1px solid black;
+    margin:10px;
+    padding:10px;
+    float: left;
+}
+
+div.artifact:hover {
+    border: 1px solid #777;
+}
+
+div.artifact p {
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+</style>
+<body>
+<nav><p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present.  Admission is free.  Stay as long as you like.  And we hope you enjoy!</p></nav>
 
 <h1>Early Days</h1>
-Here you'll find some of the original founders and employees of the Natural Capital Project.
+<p>Here you'll find some of the original founders and employees of the Natural Capital Project.</p>
 
 <div class="artifact">
     <img src="images/ht.png"/>
@@ -30,13 +79,15 @@ Here you'll find some of the original founders and employees of the Natural Capi
 <p>RIOS was our first software that helped users predict the best place to invest for improvements to a water fund.  The development cycle was memorable and includes memorable artifacts.</p>
 
 <div class="artifact">
-    <img src="images/rios_crowns.png"/>
-    <p>These crowns were hand crafted by local artists Adrian Vogl and Heather Tallis for James Douglass and Richard Sharp, the primary software developers of RIOS.</p>
+    <img src="images/first_rios_meeting.png"/>
+    <p>This is a snap from the first Stanford RIOS meeting with Heather Tallis, Hal Mooney, and Stacie Horsemask.</p>
 </div>
 
-* james wearing rios hat
-* Stacey horse RIOS picture
-* big RIOS event picture?
+<div class="artifact">
+    <img src="images/rios_crowns.png"/><br/>
+    <img src="images/james_rios.png"/>
+    <p>These crowns were hand crafted by local artists Adrian Vogl and Heather Tallis for James Douglass and Richard Sharp, the primary software developers of RIOS.</p>
+</div>
 
 <h1>Halloweed</h1>
 <p>NatCap has participated in All Hallows' Eve since its founding.  Activities have included trick-or-treating and guising, monitoring haunted attractions, as well as donning costumes modeled after supernatural figures like horses, bananas, and tacos.</p>
@@ -108,11 +159,11 @@ Here you'll find some of the original founders and employees of the Natural Capi
 
 <div class="artifact">
     <img src="images/office_ben.png"/>
-    <p>Ben Bryant's office, shortly after drunk students broke in and tried to sleep on his desk.</p>
+    <p>Ben Bryant's office after an inebriated student barged in and attempted to sleep on his desk.</p>
 </div>
 
 <div class="artifact">
-    <img src="images/memorial.png"/>
+    <img src="images/office_memorial.png"/>
     <p>We dedicate office spaces to those NatCappers that have moved on. (to other jobs)</p>
 </div>
 
@@ -124,15 +175,37 @@ Here you'll find some of the original founders and employees of the Natural Capi
 <h1>InVEST</h1>
 <p>InVEST is our flagship software tool, modeling and valuing Ecosystem Services at the speed of science.  While you can always download the latest version of invest <a href="http://www.naturalcapitalproject.org/invest/">here</a>, you can see below for some artifacts.</p>
 
-    * cds
-    * old download page
-    * new download page
+<div class="artifact">
+    <img src="images/invest_1.png"/>
+    <p>"InVEST" was released on June 7, 2008 to a little more than half a dozen people at a WWF workshop.  You can still email invest@naturalcapitalproject.org.  Try it out today!</p>
+</div>
 
-<h1>Computational Infrastructure</h1>
-<p>Since 2011 NatCap's computing needs have grown.  In the early days that included hosting a website and InVEST downloads, and later internal data sharing and dedicated computing resources.  By now we've
-* Infrastructure
-    * james & doug holding machine
-    * james, doug, kathryn loading uhaul
+<div class="artifact">
+    <img src="images/invest_2_2_1.png"/>
+    <p>InVEST 2.2.1 (released on 1/22/2012) was our only other version of InVEST released to a CD.  It was short-lived being replaced almost a month later by InVEST 2.2.2 on 3/3/2012.</p>
+</div>
 
+<div class="artifact">
+    <img src="images/download_invest.png"/>
+    <p>Nowadays you can download InVEST directly from the World Wide Web.  Check it out today!.</p>
+</div>
+
+<h1>Intellecutal Property</h1>
+<p>Since 2011 NatCap's science development and body of work have exponentiated.  But it sstarted simpler.  See below for some early intellectual artifacts.</p>
+
+<div class="artifact">
+    <img src="images/c_tam_notebook.jpg"/>
+    <p>Christine Tam's notebook during her tenure as NatCap's first director.  There are notes in it about hiring Heather Tallis, questions about publishing a paper in PNAS, and if InVEST should be demoed at a WWF training in China.</p>
+</div>
+
+<div class="artifact">
+    <img src="images/invest_design.png"/>
+    <p>First InVEST API design 8/11/2011 (courtesy of James Douglass's engineering notebook).</p>
+</div>
+
+<div class="artifact">
+    <img src="images/ncp_dev_closed.png"/><img src="images/ncp_dev_open.png"/>
+    <p>NCP-DEV, NatCap's first full time dedicated server.  For years it hosted our webpage, InVEST downloads, and Lisa's intermediate files.</p>
+</div>
 </body>
 </html>
