@@ -3,14 +3,22 @@
 
 body {
     background:url("images/wood-bg.jpg") repeat;
+    font-family: "Proxima Nova", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+    margin-bottom: 0.5em;
+    line-height: 1.2125em;
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
 }
 h1 {
     clear: left;
+    font-weight: normal;
 }
 
 nav {
     background-color: rgb(43, 56, 64);
-    color: gray;
+    color: lightgray;
     padding: 5px;
 }
 
@@ -27,30 +35,33 @@ div.artifact img {
   height: auto;
 }
 div.artifact:hover {
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
   position: relative;
   z-index: 5;
+  border: 1px solid #777;
+  background-color: rgba(100, 100, 100, 0.5);;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
 div.artifact {
     border:1px solid black;
     margin:10px;
     padding:10px;
     float: left;
-}
-
-div.artifact:hover {
-    border: 1px solid #777;
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.1);
 }
 
 div.artifact p {
-    padding: 15px;
     width: 200px;
     text-align: center;
+    font-size: 80%;
 }
 </style>
 <body>
-<nav><p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present.  Admission is free.  Stay as long as you like.  And we hope you enjoy!</p></nav>
+<nav><p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present.  Admission is free.  Stay as long as you like and we hope you enjoy!</p></nav>
 
 <h1>Early Days</h1>
 <p>Here you'll find some of the original founders and employees of the Natural Capital Project.</p>
