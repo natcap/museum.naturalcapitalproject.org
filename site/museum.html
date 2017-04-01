@@ -2,7 +2,7 @@
 <style>
 
 body {
-    background:url("images/wood-bg.jpg") repeat;
+    /*background:url("images/wood-bg.jpg") repeat;*/
     font-family: "Proxima Nova", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
     margin-bottom: 0.5em;
@@ -20,6 +20,12 @@ a:link
 a:visited
 {
    color: #000;
+   text-decoration: none;
+}
+
+a:hover
+{
+   color: #CCC;
    text-decoration: none;
 }
 
@@ -65,12 +71,12 @@ div.artifact img {
   height: auto;
 }
 div.artifact:hover {
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.8);
+  -moz-transform: scale(1.8);
   position: relative;
   z-index: 5;
-  border: 2px solid #00f;
-  background-color: rgba(100, 100, 100, 0.5);;
+  color: #AAA;
+  background-color: rgba(100, 100, 100, 0.9);;
   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
 }
@@ -89,61 +95,67 @@ div.artifact p {
     text-align: center;
     font-size: 80%;
 }
+
+div.section {
+    margin: auto;
+    width: 80%;
+}
 </style>
 <body>
-<nav><img class='header' src="images/natcap-logo.jpg"><p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present.  Admission is free.  Stay as long as you like and we hope you enjoy!</p></nav>
+<nav><img class='header' src="images/small/natcap-logo.png"><p>Welcome to the earthy halls of the NatCap museum.  Here you'll find digital artifacts of our past and present. Stay as long as you like and we hope you enjoy!</p></nav>
 
+<div class="section">
 <h1>Early Days</h1>
 <p>Here you'll find some of the original founders and employees of the Natural Capital Project.</p>
-
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/ht.png"/>
+    <img src="images/small/ht.png"/>
     <p>A teenage Heather Tallis helping a participant in an early InVEST training in China.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/pk_ht_ct.png"/>
+    <img src="images/small/pk_ht_ct.png"/>
     <p>A teenage Peter Kariva, Heather Tallis, Christine Tam and others in China.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/jumpin_1.png"/>
+    <img src="images/small/jumpin_1.png"/>
     <p>Heather Tallis and Collaborator Jumpin' on the Great Wall of China.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/tr_ck_off.png"/>
+    <img src="images/small/tr_ck_off.png"/>
     <p>Taylor Ricketts doing science with collaborators wearing his always amusing "**ck off, man, I'm a scientist" t-shirt.</p>
     </a>
 </div>
-
 <hr/>
 <h1>RIOS</h1>
-<p>RIOS was NatCap's first optimization focused software.  It has been since used in a handful of latin american water funds to construct investment portfolios.</p>
 
+<p>RIOS was NatCap's first optimization focused software.  It has been since used in a handful of latin american water funds to construct investment portfolios.</p>
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/first_rios_meeting.png"/>
+    <img src="images/small/first_rios_meeting.png"/>
     <p>This is a snap from the first Stanford RIOS meeting with Heather Tallis, Hal Mooney, and Stacie Horsemask. (Circa 2011)</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/rios_crowns.png"/><br/>
+    <img src="images/small/rios_crowns.png"/><br/>
     <p>These crowns were hand crafted by local artists Adrian Vogl and Heather Tallis for James Douglass and Richard Sharp, the primary software developers of RIOS. (2012)</p>
     </a>
 </div>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/james_rios.png"/>
+    <img src="images/small/james_rios.png"/>
     </a>
     <p>James Douglass moments after being awarded the Silver Crown of RIOS. (2012)</p>
     </a>
@@ -152,45 +164,45 @@ div.artifact p {
 <hr/>
 <h1>Halloweed</h1>
 <p>NatCap has participated in some form of All Hallows' Eve since its founding.  This has included trick-or-treating and guising, monitoring haunted water funds, and donning costumes modeled after supernatural figures such as horses, bananas, and tacos.</p>
-
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/costume_taco.png"/>
-    <p>Known to be worn by Ginger Kowal, Richard Sharp, and others.</p>
+    <img src="images/small/costume_taco.png"/>
+    <p>Taco, known to be worn by Ginger Kowal, Richard Sharp, and others.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/costume_banana.png"/>
-    <p>Known to be worn by Drew Guswa, Richard Sharp, and others.</p>
+    <img src="images/small/costume_banana.png"/>
+    <p>Banana, known to be worn by Drew Guswa, Richard Sharp, and others.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/costume_party_pants.png"/>
-    <p>Known to be worn by many many NatCappers.</p>
+    <img src="images/small/costume_party_pants.png"/>
+    <p>Party pants, worn by almost every NatCapper.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/horse_mask.png"/>
+    <img src="images/small/horse_mask.png"/>
     <p>Those who have worn horsemask have done so in anonymity.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/sad_banana.png"/>
+    <img src="images/small/sad_banana.png"/>
     <p>Halloween 2016</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/halloween_2015.png"/>
+    <img src="images/small/halloween_2015.png"/>
     <p>Halloween 2015</p>
     </a>
 </div>
@@ -203,141 +215,140 @@ div.artifact p {
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/halloween_2013.jpg"/>
+    <img src="images/small/halloween_2013.png"/>
     <p>Halloween 2013</p>
     </a>
 </div>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/halloween_2012.jpg"/>
+    <img src="images/small/halloween_2012.png"/>
     <p>Halloween 2012</p>
     </a>
 </div>
-
 <hr/>
 <h1>Office Space</h1>
 <p>Frugality runs deep in NatCap culture.  We can see this in our historical selection of office space.</p>
-
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_grateful_bread.png"/>
+    <img src="images/small/office_grateful_bread.png"/>
     <p>Greatful Bread is so often frequented by Seattle NatCappers that it's astounding they are not seen from any Google street imagery.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_anne_bike.png"/>
-    <p>"That's not my bike, but that IS where I park it!" --<em>Anne Guerry</em>"</p>
+    <img src="images/small/office_anne_bike.png"/>
+    <p>"That's not my bike, but that IS where I park it!" --<em>Anne Guerry</em></p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_noaa.png"/>
-    <p>The NOAA NW fisheries science center: NatCap Marine's headquarters from 2009-2012.  "There was an armed guard there for a while.  Then they had a budget cut and there was nobody there. I think they were protecting the secrets." --<em>Anne Guerry</em></p>
+    <img src="images/small/office_noaa.png"/>
+    <p>The NOAA NW fisheries science center: NatCap Marine's headquarters from 2009-2012.  "There was an armed guard there for a while.  Then they had a budget cut and then there was nobody there." --<em>Anne Guerry</em></p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_old_software.png"/>
+    <img src="images/small/office_old_software.png"/>
     <p>NatCap software office, 2012-2016.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_ben.png"/>
-    <p>Ben Bryant's office after an inebriated student attempted to sleep on his desk.</p>
+    <img src="images/small/office_ben.png"/>
+    <p>Ben Bryant's corner after an inebriated student slept on his desk.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_memorial.png"/>
+    <img src="images/small/office_memorial.png"/>
     <p>We dedicate office spaces to those NatCappers that have moved on. (to other jobs)</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/office_natcap.png"/>
+    <img src="images/small/office_natcap.png"/>
     <p>NatCap's main headquarters office.  We try to keep it clean.</p>
     </a>
 </div>
 <hr/>
 <h1>InVEST</h1>
-<p>InVEST is our flagship software tool, modeling and valuing Ecosystem Services at the speed of science.  While you can always download the latest version of invest <a href="http://www.naturalcapitalproject.org/invest/">here</a>, you can see below for some artifacts.</p>
-
+<p>InVEST is our flagship software tool, modeling and valuing Ecosystem Services at the speed of science.  You can always download the latest version of InVEST but only below can the artifacts.</p>
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/invest_1.png"/>
+    <img src="images/small/invest_1.png"/>
     <p>"InVEST" was released on June 7, 2008 to a little more than half a dozen people at a WWF workshop.  You can still email invest@naturalcapitalproject.org.  Try it out today!</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/invest_2_2_1.png"/>
+    <img src="images/small/invest_2_2_1.png"/>
     <p>InVEST 2.2.1 (released on 1/22/2012) was our only other version of InVEST released to a CD.  It was short-lived being replaced almost a month later by InVEST 2.2.2 on 3/3/2012.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/download_invest.png"/>
+    <img src="images/small/download_invest.png"/>
     <p>Nowadays you can download InVEST directly from the World Wide Web.  Check it out today!</p>
     </a>
 </div>
 <hr/>
-<h1>Intellecutal Property</h1>
+<h1>Intellectual Property</h1>
 <p>NatCap's science development has exponentiated Since 2011.  But it started simpler.  See below for some early intellectual artifacts.</p>
-
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/c_tam_notebook.jpg"/>
+    <img src="images/small/c_tam_notebook.png"/>
     <p>Christine Tam's notebook during her tenure as NatCap's first director.  There are notes about hiring Heather Tallis ("very good!"), questions about publishing a paper in PNAS ("PNAS?"), and if InVEST should be demoed at a WWF training in China ("WWF China").</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/invest_design.png"/>
+    <img src="images/small/invest_design.png"/>
     <p>First InVEST API design 8/11/2011 (courtesy of James Douglass's engineering notebook).</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/ncp_dev_closed.png"/><img src="images/ncp_dev_open.png"/>
-    <p>NCP-DEV, NatCap's first full time dedicated server.  For years it hosted our webpage, InVEST downloads, and Lisa's intermediate files.  Finally shut down in early 2016.</p>
+    <img src="images/small/ncp_dev_closed.png"/><img src="images/small/ncp_dev_open.png"/>
+    <p>NCP-DEV, NatCap's first full time dedicated server.  For years it hosted our webpage, InVEST downloads, and Lisa's intermediate files.  Shut down in early 2016 when the Google cloud was just better.</p>
     </a>
 </div>
 <hr>
 <h1>Miscellanea</h1>
-<p>The story of NatCap is the story of ideas, bursting as lighting in blackout storm.  As such, no discrete set of museum categories could contain all of NatCaps artifacts.</p>
-
-
+<p>The story of NatCap is the story of ideas, shining light into dark corners.  As such, no one expects a discrete set of categories to classify all NatCap artifacts.</p>
+<hr/>
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/justin_bomb.png"/>
-    <p>"Don't put my photobomb in the miscellanea section." --<em>Justin</em></p>
+    <img src="images/small/justin_bomb.png"/>
+    <p>"Don't put my photobomb in the miscellanea category." --<em>Justin</em></p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/marinapalooza.png"/>
+    <img src="images/small/marinapalooza.png"/>
     <p>Marinapalooza 20XX.</p>
     </a>
 </div>
 
 <div class="artifact">
     <a href="https://goo.gl/W5Ui3u">
-    <img src="images/marcap.png"/>
-    <p>"Our original 2-pager about the new Moore grant that was to launch the marine team.  At the time we didn't think we were part of NatCap so that's why the file is called MarCap" --<em>Anne Guerry, MarCap Team Lead</em></p>
+    <img src="images/small/marcap.png"/>
+    <p>"Here's our original 2-pager about the new Moore grant that was to launch the marine team.  At the time we didn't think we were part of NatCap so that's why the file is called MarCap" --<em>Anne Guerry, MarCap Team Lead and n-Pager Writer</em></p>
     </a>
+</div>
 </div>
 </body>
 </html>
